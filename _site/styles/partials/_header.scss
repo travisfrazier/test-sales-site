@@ -1,0 +1,42 @@
+header {
+    img {
+        width: 104px;
+        margin-bottom: 40px;
+    }
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 30px;
+    @media only screen and (max-width: 480px) {
+        border-bottom: none;
+    }
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 0px;
+    @media only screen and (max-width: 767px) {
+        font-size: 32px;
+    }
+    @media only screen and (max-width: 480px) {
+        font-size: 24px;
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 44px;
+    margin-top: 0px;
+    @media only screen and (max-width: 767px) {
+        font-size: 32px;
+    }
+    @media only screen and (max-width: 480px) {
+        font-size: 24px;
+    }
+}
+
+nav {
+    @media only screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
