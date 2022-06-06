@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Sales POD + Forecast Cadence</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://static.ivanti.com/sites/marketing/media/images/logos/ivanti-logo-red.svg" />
+        <h1>Sales POD + Forecast Cadence</h1>
+        <h2>Weekly Guide</h2>
+        <nav>
+            <div class="toggles">
+                <span class="toggle-title">Persona</span>
+
+                <input autocomplete="off" id="toggle-on" class="toggle toggle-left" name="toggle1" value="false" type="radio" checked>
+                <label for="toggle-on" class="btn">Sales Rep</label>
+                <input autocomplete="off" id="toggle-off" class="toggle toggle-right" name="toggle1" value="true" type="radio">
+                <label for="toggle-off" class="btn">Sales Leader</label>
+
+            </div>
+            <div class="toggles">
+                <span class="toggle-title">Cadence</span>
+
+                <input autocomplete="off" id="toggle-on-2" class="toggle toggle-left" name="toggle2" value="false" type="radio" checked>
+                <label for="toggle-on-2" class="btn">POD</label>
+                <input autocomplete="off" id="toggle-off-2" class="toggle toggle-right" name="toggle2" value="true" type="radio">
+                <label for="toggle-off-2" class="btn">Forecast</label>
+
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <!-- Time-Line Month Section -->
+        <section class="time-line sales-rep pod">
+            <!-- ********** Month 1 ********** -->
+            <div class="month month-one">
+                <span class="month-marker">M1</span>
+                <!-- Week 1 -->
+                <div id="week1SalesRepPod" class="week week-one active week-one-s-r-p">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p class="editable">Conduct Accelerate POD Meeting</p>
+                            <p class="editable">Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 2 -->
+                <div id="week2SalesRepPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 3 -->
+                <div id="week3SalesRepPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 4 -->
+                <div id="week4SalesRepPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 2 ********** -->
+            <div class="month month-two">
+                <span class="month-marker">M2</span>
+                <!-- Week 5 -->
+                <div id="week5SalesRepPod" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                    <div class="triangle-right"></div>
+                </div>
+                <!-- Week 6 -->
+                <div id="week6SalesRepPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 7 -->
+                <div id="week7SalesRepPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 8 -->
+                <div id="week8SalesRepPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 3 ********** -->
+            <div class="month month-three">
+                <span class="month-marker">M3</span>
+                <!-- Week 9 -->
+                <div id="week9SalesRepPod" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 10 -->
+                <div id="week10SalesRepPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 11 -->
+                <div id="week11SalesRepPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 12 -->
+                <div id="week12SalesRepPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="time-line sales-rep forecast">
+            <!-- ********** Month 1 ********** -->
+            <div class="month month-one">
+                <span class="month-marker">M1</span>
+                <!-- Week 1 -->
+                <div id="week1SalesRepFor" class="week week-one active week-one-s-r-f">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 2 -->
+                <div id="week2SalesRepFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 3 -->
+                <div id="week3SalesRepFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 4 -->
+                <div id="week4SalesRepFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 2 ********** -->
+            <div class="month month-two">
+                <span class="month-marker">M2</span>
+                <!-- Week 5 -->
+                <div id="week5SalesRepFor" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                    <div class="triangle-right"></div>
+                </div>
+                <!-- Week 6 -->
+                <div id="week6SalesRepFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 7 -->
+                <div id="week7SalesRepFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 8 -->
+                <div id="week8SalesRepFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 3 ********** -->
+            <div class="month month-three">
+                <span class="month-marker">M3</span>
+                <!-- Week 9 -->
+                <div id="week9SalesRepFor" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 10 -->
+                <div id="week10SalesRepFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 11 -->
+                <div id="week11SalesRepFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 12 -->
+                <div id="week12SalesRepFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="time-line sales-leader pod">
+            <!-- ********** Month 1 ********** -->
+            <div class="month month-one">
+                <span class="month-marker">M1</span>
+                <!-- Week 1 -->
+                <div id="week1SalesLeaderPod" class="week week-one active week-one-s-l-p">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 2 -->
+                <div id="week2SalesLeaderPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 3 -->
+                <div id="week3SalesLeaderPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 4 -->
+                <div id="week4SalesLeaderPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 2 ********** -->
+            <div class="month month-two">
+                <span class="month-marker">M2</span>
+                <!-- Week 5 -->
+                <div id="week5SalesLeaderPod" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                    <div class="triangle-right"></div>
+                </div>
+                <!-- Week 6 -->
+                <div id="week6SalesLeaderPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 7 -->
+                <div id="week7SalesLeaderPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 8 -->
+                <div id="week8SalesLeaderPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 3 ********** -->
+            <div class="month month-three">
+                <span class="month-marker">M3</span>
+                <!-- Week 9 -->
+                <div id="week9SalesLeaderPod" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 10 -->
+                <div id="week10SalesLeaderPod" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 11 -->
+                <div id="week11SalesLeaderPod" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 12 -->
+                <div id="week12SalesLeaderPod" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="time-line sales-leader forecast">
+            Sales Leader Forecast
+            <!-- ********** Month 1 ********** -->
+            <div class="month month-one">
+                <span class="month-marker">M1</span>
+                <!-- Week 1 -->
+                <div id="week1SalesLeaderFor" class="week week-one active week-one-s-l-f">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 2 -->
+                <div id="week2SalesLeaderFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 3 -->
+                <div id="week3SalesLeaderFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 4 -->
+                <div id="week4SalesLeaderFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#4E0389" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 2 ********** -->
+            <div class="month month-two">
+                <span class="month-marker">M2</span>
+                <!-- Week 5 -->
+                <div id="week5SalesLeaderFor" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                    <div class="triangle-right"></div>
+                </div>
+                <!-- Week 6 -->
+                <div id="week6SalesLeaderFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 7 -->
+                <div id="week7SalesLeaderFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 8 -->
+                <div id="week8SalesLeaderFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#850a64" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- ********** Month 3 ********** -->
+            <div class="month month-three">
+                <span class="month-marker">M3</span>
+                <!-- Week 9 -->
+                <div id="week9SalesLeaderFor" class="week week-one">
+                    <div class="week-content">
+                        <p class="week-num">W1</p>
+                        <div>
+                            <p>Conduct Accelerate POD Meeting</p>
+                            <p>Priortize high priority Qtr Opps</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 10 -->
+                <div id="week10SalesLeaderFor" class="week week-two">
+                    <div class="week-content">
+                        <p class="week-num">W2</p>
+                        <div>
+                            <p>Update Opportunity Status from Week 1 POD Meeting</p>
+                            <p>Pipeline flush/update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 11 -->
+                <div id="week11SalesLeaderFor" class="week week-three">
+                    <div class="week-content">
+                        <p class="week-num">W3</p>
+                        <div>
+                            <p>Conduct Generate POD Meeting</p>
+                            <p>Out quarter Pipeline build - Whitespace</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Week 12 -->
+                <div id="week12SalesLeaderFor" class="week week-four">
+                    <div class="week-content">
+                        <p class="week-num">W4</p>
+                        <div>
+                            <p>Prepare for Accelerate POD Meeting</p>
+                            <p>Update Generate Action Plans/Update forecast</p>
+                        </div>
+                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L2 14" stroke="#b60f45" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <!-- 48 pages -->
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
