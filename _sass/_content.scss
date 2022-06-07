@@ -19,13 +19,13 @@
     }
     h1 {
         font-size: 24px;
-        color: #4e0389;
+        color: $color-m-1-pod;
     }
 
     h2 {
         font-size: 24px;
         font-weight: 400;
-        color: #4e0389;
+        color: $color-m-1-pod;
     }
 }
 
@@ -35,13 +35,13 @@
     }
     h1 {
         font-size: 24px;
-        color: #850a64;
+        color: $color-m-2-pod;
     }
 
     h2 {
         font-size: 24px;
         font-weight: 400;
-        color: #850a64;
+        color: $color-m-2-pod;
     }
 }
 
@@ -51,16 +51,54 @@
     }
     h1 {
         font-size: 24px;
-        color: #b60f45;
+        color: $color-m-3-pod;
     }
 
     h2 {
         font-size: 24px;
         font-weight: 400;
-        color: #b60f45;
+        color: $color-m-3-pod;
     }
 }
 
 li {
     padding: 8px;
 }
+
+ 
+.content-month-one {
+    &.forecast {
+        h1 {
+            color: $color-m-1-forecast;
+        }
+
+        h2 {
+            color: $color-m-1-forecast;
+        }
+    }
+}
+
+.content-month-two {
+    &.forecast {
+        h1 {
+            color: $color-m-2-forecast;
+        }
+
+        h2 {
+            color: $color-m-2-forecast;
+        }
+    }
+}
+
+.content-month-three {
+    &.forecast {
+        h1 {
+            color: $color-m-3-forecast;
+        }
+
+        h2 {
+            color: $color-m-3-forecast;
+        }
+    }
+}
+
