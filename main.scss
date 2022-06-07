@@ -1,16 +1,13 @@
---- 
----
-
 //Inter Ivanti Font Import ---------- //
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 
 //SCSS Partials ---------- //
-@import '../_sass/normalize';
-@import '../_sass/variables';
-@import '../_sass/toggle';
-@import '../_sass/header';
-@import '../_sass/time-line';
-@import '../_sass/content';
+@import './_partials/normalize';
+@import './_partials/variables';
+@import './_partials/toggle';
+@import './_partials/header';
+@import './_partials/time-line';
+@import './_partials/content';
 
 body {
     font-family: 'Inter', sans-serif;
